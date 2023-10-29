@@ -1,6 +1,6 @@
 instance_offsets = {
     "name":0x48,
-    "parent":0x74,
+    "parent":0x60,
     "childlist":0x50,
     "class_descriptor":0x18 ,
     "property_descriptor":0x18,
