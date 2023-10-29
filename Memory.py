@@ -8,8 +8,8 @@ def GetDataModel() -> int:
     guiroot_address = roblox.Program.pattern_scan_all(guiroot_pattern)
     if guiroot_address != 0:
         RawDataModel = roblox.DRP(guiroot_address + 0x38) 
-        DataModel = RawDataModel+0x18
-        return DataModel
+        DataModel = RawDataModel+0x148
+        return DataModel - 0x8
     else:
         return 0
     
